@@ -1,0 +1,21 @@
+# docker compose up --build   →  http://localhost:8080
+# Put a real SESSION_SECRET in .env before exposing this anywhere.
+services:
+  brio:
+    build: .
+    image: brio:1.0.0
+    container_name: brio
+    ports:
+      - "8080:8080"
+    environment:
+      NODE_ENV: production
+      PORT: "8080"
+      # dev-only fallback so `docker compose up` works out of the box — replace it
+      SESSION_SECRET: ${SESSION_SECRET:-dev-only-secret-replace-me-before-deploy}
+      DB_FILE: /app/data/db.json
+      DEMO_EMAIL: ${DEMO_EMAIL:-demo@brio.app}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-BrioDemo!2026}
+      SHOW_DEMO_CREDENTIALS: "true"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

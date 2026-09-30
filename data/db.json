@@ -1,0 +1,265 @@
+{
+  "users": [
+    {
+      "id": "usr_68eabba8876c39ab",
+      "email": "demo@brio.app",
+      "name": "Demo Reader",
+      "passwordHash": "scrypt$a9c89b6bb0511ddb92539147f4dbacb7$cf4770264f8958e1c6077c91ebe4c520226819dfde4295b849150400161a6c12d8e4e2d3cd4aab873050c89b4eb1ccab26a44714f6d475d2c65a7e3ebaef0f49",
+      "createdAt": "2026-09-30T14:34:27.467Z",
+      "lastLoginAt": "2026-09-30T14:35:10.188Z"
+    }
+  ],
+  "entitlements": [
+    {
+      "id": "ent_4adabd3f3b5e901e",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "ai-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.468Z"
+    },
+    {
+      "id": "ent_7d764d351c0e595b",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "biz-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.469Z"
+    },
+    {
+      "id": "ent_aafb6c5d24cebdc4",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "psy-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.469Z"
+    },
+    {
+      "id": "ent_6c85803f438615b7",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "growth-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.469Z"
+    },
+    {
+      "id": "ent_63c860e1887a7916",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "edu-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.470Z"
+    },
+    {
+      "id": "ent_64bc2ef3de6ba32d",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "money-1",
+      "source": "seed",
+      "createdAt": "2026-09-30T14:34:27.470Z"
+    },
+    {
+      "id": "ent_dadbf32e3106e257",
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "ai-2",
+      "source": "checkout",
+      "createdAt": "2026-09-30T14:35:08.142Z"
+    }
+  ],
+  "progress": [
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "ai-1",
+      "percent": 49,
+      "minutes": 37,
+      "finished": false,
+      "updatedAt": "2026-09-30T14:35:08.189Z"
+    },
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "biz-1",
+      "percent": 72,
+      "minutes": 42,
+      "finished": false,
+      "updatedAt": "2026-09-30T14:34:27.469Z"
+    },
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "psy-1",
+      "percent": 100,
+      "minutes": 45,
+      "finished": true,
+      "updatedAt": "2026-09-30T14:34:27.469Z"
+    },
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "growth-1",
+      "percent": 56,
+      "minutes": 34,
+      "finished": false,
+      "updatedAt": "2026-09-30T14:34:27.470Z"
+    },
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "edu-1",
+      "percent": 18,
+      "minutes": 14,
+      "finished": false,
+      "updatedAt": "2026-09-30T14:34:27.470Z"
+    },
+    {
+      "userId": "usr_68eabba8876c39ab",
+      "bookId": "money-1",
+      "percent": 24,
+      "minutes": 24,
+      "finished": false,
+      "updatedAt": "2026-09-30T14:34:27.470Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_4b8be3e7b27ad48e",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "money-1",
+      "minutes": 22,
+      "at": "2026-09-18T17:40:00.000Z"
+    },
+    {
+      "id": "evt_63caa2ac91d1f77c",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "listen",
+      "bookId": "money-1",
+      "minutes": 8,
+      "at": "2026-09-18T18:40:00.000Z"
+    },
+    {
+      "id": "evt_f67045ce21e41b8c",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "ai-1",
+      "minutes": 40,
+      "at": "2026-09-19T20:50:00.000Z"
+    },
+    {
+      "id": "evt_f586b51eff02398f",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "psy-1",
+      "minutes": 10,
+      "at": "2026-09-21T11:50:00.000Z"
+    },
+    {
+      "id": "evt_5bb85db45fe269f3",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "listen",
+      "bookId": "psy-1",
+      "minutes": 16,
+      "at": "2026-09-21T12:50:00.000Z"
+    },
+    {
+      "id": "evt_c3c942188aa15a22",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "money-1",
+      "minutes": 21,
+      "at": "2026-09-23T19:06:00.000Z"
+    },
+    {
+      "id": "evt_bfccb9aaece2576a",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "growth-1",
+      "minutes": 28,
+      "at": "2026-09-24T07:16:00.000Z"
+    },
+    {
+      "id": "evt_3c43ff7d0f049b68",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "listen",
+      "bookId": "growth-1",
+      "minutes": 16,
+      "at": "2026-09-24T08:16:00.000Z"
+    },
+    {
+      "id": "evt_c084761e9a15ff8c",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "biz-1",
+      "minutes": 30,
+      "at": "2026-09-25T14:00:00.000Z"
+    },
+    {
+      "id": "evt_a20e1e011f8b791a",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "growth-1",
+      "minutes": 41,
+      "at": "2026-09-26T16:42:00.000Z"
+    },
+    {
+      "id": "evt_3c1c1e2385adb5f4",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "edu-1",
+      "minutes": 25,
+      "at": "2026-09-28T10:50:00.000Z"
+    },
+    {
+      "id": "evt_04329737d435e8a3",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "money-1",
+      "minutes": 20,
+      "at": "2026-09-29T09:50:00.000Z"
+    },
+    {
+      "id": "evt_544a5ca63d2b5e11",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "ai-1",
+      "minutes": 14,
+      "at": "2026-09-30T14:01:00.000Z"
+    },
+    {
+      "id": "evt_817a73253ef0c8ba",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "listen",
+      "bookId": "ai-1",
+      "minutes": 18,
+      "at": "2026-09-30T15:01:00.000Z"
+    },
+    {
+      "id": "evt_846b65960957349c",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "ai-2",
+      "minutes": 0,
+      "at": "2026-09-30T14:35:08.143Z"
+    },
+    {
+      "id": "evt_5c3a5c234c14edeb",
+      "userId": "usr_68eabba8876c39ab",
+      "type": "read",
+      "bookId": "ai-1",
+      "minutes": 3,
+      "at": "2026-09-30T14:35:08.189Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "pur_d8a762a9e35a98c6",
+      "userId": "usr_68eabba8876c39ab",
+      "provider": "none",
+      "reference": null,
+      "amountCents": 1200,
+      "currency": "USD",
+      "status": "seed",
+      "createdAt": "2026-09-30T14:34:27.473Z"
+    },
+    {
+      "id": "pur_23f5adff662a2d9b",
+      "userId": "usr_68eabba8876c39ab",
+      "provider": "none",
+      "reference": null,
+      "amountCents": 200,
+      "currency": "USD",
+      "status": "placeholder",
+      "createdAt": "2026-09-30T14:35:08.143Z"
+    }
+  ]
+}
